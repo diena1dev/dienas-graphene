@@ -20,6 +20,8 @@ include("packages:fabric-26.2")
 
 include("packages:fabric-1.21.11")
 
+include("packages:neoforge-26.2")
+
 include("tools:debug-client-fabric-26.2")
 
 include("tools:debug-client-fabric-1.21.11")
