@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="grapheneui_debug"
+version="${version}"
+displayName="Graphene Debug Client"
+authors="trethore"
+description='''Development client and smoke tests for Graphene on Minecraft ${minecraftVersion}.'''
+logoFile="assets/grapheneui-debug/icon.png"
+
+[[dependencies.grapheneui_debug]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neoForgeVersion},)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.grapheneui_debug]]
+    modId="minecraft"
+    type="required"
+    versionRange="[${minecraftVersion},26.3)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.grapheneui_debug]]
+    modId="grapheneui"
+    type="required"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="CLIENT"

@@ -26,8 +26,12 @@ include("tools:debug-client-fabric-26.2")
 
 include("tools:debug-client-fabric-1.21.11")
 
+include("tools:debug-client-neoforge-26.2")
+
 project(":tools").projectDir = file("debug-client")
 
 project(":tools:debug-client-fabric-26.2").projectDir = file("debug-client/fabric-26.2")
 
 project(":tools:debug-client-fabric-1.21.11").projectDir = file("debug-client/fabric-1.21.11")
+
+project(":tools:debug-client-neoforge-26.2").projectDir = file("debug-client/neoforge-26.2")
