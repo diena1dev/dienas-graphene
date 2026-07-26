@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="grapheneui"
+version="${version}"
+displayName="Graphene"
+authors="trethore, diena1dev"
+description='''A client-side UI library for Minecraft that lets mod developers build interfaces with web technologies.'''
+logoFile="assets/grapheneui/icon.png"
+
+[[mixins]]
+config="grapheneui.mixins.json"
+
+[[dependencies.grapheneui]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neoForgeVersion},)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.grapheneui]]
+    modId="minecraft"
+    type="required"
+    versionRange="[${minecraftVersion},26.3)"
+    ordering="NONE"
+    side="CLIENT"

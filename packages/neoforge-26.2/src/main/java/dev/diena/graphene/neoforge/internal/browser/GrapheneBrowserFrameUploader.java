@@ -1,4 +1,4 @@
-package io.github.trethore.graphene.neoforge.internal.browser;
+package dev.diena.graphene.neoforge.internal.browser;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import io.github.trethore.graphene.api.browser.BrowserDirtyRegion;

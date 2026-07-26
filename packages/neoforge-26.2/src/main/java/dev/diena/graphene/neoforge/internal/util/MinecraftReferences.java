@@ -1,4 +1,4 @@
-package io.github.trethore.graphene.neoforge.internal.util;
+package dev.diena.graphene.neoforge.internal.util;
 
 import com.mojang.blaze3d.platform.Window;
 import java.net.URI;

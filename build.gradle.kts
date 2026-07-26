@@ -7,6 +7,7 @@ plugins {
   id("com.diffplug.spotless") version "8.8.0"
   id("example.unpack-sources")
   id("example.sonar")
+  id("org.jetbrains.gradle.plugin.idea-ext") version "1.2"
 }
 
 val modVersion = providers.gradleProperty("mod_version").orElse(libs.versions.mod)

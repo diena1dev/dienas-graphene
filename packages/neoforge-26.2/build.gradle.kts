@@ -148,6 +148,11 @@ publishing {
             name.set("Titouan Rethore")
             email.set("titou.rethore@gmail.com")
           }
+          developer {
+            id.set("diena1dev")
+            name.set("diena1dev")
+            email.set("diena@diena.dev")
+          }
         }
 
         scm {
