@@ -25,6 +25,7 @@ base {
 
 neoForge {
   version = neoForgeVersion
+  addModdingDependenciesTo(sourceSets.test.get())
 
   runs {
     register("client") {
